@@ -1,0 +1,94 @@
+body{
+    background:#e2e2e2!important;
+}
+
+.bg-primary{
+    background:black!important;
+}
+
+.banner{
+    width:100%;
+    height:95vh;
+    background:linear-gradient(rgba(0,0,0,0.8) , rgba(0,0,0,0.8)),url(../images/pic.jpg);
+    background-repeat:no-repeat;
+    background-size:100% 95vh;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.my-card{
+    padding:20px;
+    background:white;
+    margin-top:3px;
+}
+
+#login .container #login-row #login-column #login-box {
+  margin-top: 120px;
+  max-width: 600px;
+  height: 420px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+/* sidebar */
+.sidebar{
+    width:18%;
+    background:white;
+    position:fixed;
+    height:100%;
+    padding-top:45px;
+}
+
+@media only screen and (max-width: 600px){
+    .sidebar{
+        display:none;
+        width:80% !important;
+        background:white;
+        height : 100vh;
+        position : fixed;
+        padding-top : 20px;
+    }
+
+    .content{
+        margin-left:0% !important;
+    }
+}
+
+.sidebar a{
+    width : 100%;
+    display : block;
+    padding : 10px 25px;
+    text-decoration : none;
+    color : grey;
+}
+
+.sidebar a:hover{
+    background:#e2e2e2;
+    font-size:large;
+}
+
+.sidebar .divider{
+    height : .5px;
+    width:100%;
+    background:#e2e2e2;
+    margin-top:10px;
+}
+
+.content {
+    margin-left:20%;
+}
+
+.sidebar .crossbtn{
+    position:absolute;
+    top:0;
+    right:35px;
+    font-size:35px;
+    cursor:pointer;
+}
